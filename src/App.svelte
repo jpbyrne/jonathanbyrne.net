@@ -16,21 +16,11 @@
 	}
 
 	p {
-		margin-bottom: 9px;
+		margin-bottom: 12px;
 	}
 
 	p:last-child {
 		margin-bottom: 0;
-	}
-
-	@media(max-width: 500px) {
-		h2 {
-			margin: 16px 0;
-		}
-		
-		p {
-			margin-bottom: 7px;
-		}
 	}
 </style>
 
