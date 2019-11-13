@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 67px;
+	box-sizing: border-box;
+	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+    animation: fade-in 2s;
+}
+
+main {
+  max-width: 640px;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+p {
+    line-height: 150%;
+    font-size: 16px;
+}
+
+a {
+    color: #3BB2B8;
+}
+
+::selection {
+    background: #3BB2B8;
+    color: #FFFFFF;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to   {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 500px) {
+    body {
+        justify-content: flex-end;
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 37px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+}
