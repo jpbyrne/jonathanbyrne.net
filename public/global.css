@@ -14,6 +14,29 @@ body {
 	box-sizing: border-box;
 	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
     animation: fade-in 2s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+        background-color: white;
+    }
+
+    h2, p {
+	    color: #242424;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+        background-color: #242424;
+    }
+
+    h2, p {
+	    color: white;
+	}
 }
 
 main {
