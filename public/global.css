@@ -60,15 +60,6 @@ p {
 	font-size: 16px;
 }
 
-a {
-    color: #3BB2B8;
-}
-
-::selection {
-    background: #3BB2B8;
-    color: #FFFFFF;
-}
-
 @keyframes fade-in {
     from {
         opacity: 0;

@@ -1,18 +1,21 @@
 <script>
 	import Icon from './components/Icon.svelte';
+	import Header from './components/GradientHeader.svelte';
+
+	// https://webgradients.com/
+	const gradients = [
+    { left: '#3BB2B8', right: '#42E695' },
+    { left: '#E8198B', right: '#C7EAFD' },
+    { left: '#4fACFE', right: '#00F2FE' },
+    { left: '#FA709A', right: '#FEE140' },
+	];
+	
+	const gradient = gradients[Math.floor(Math.random() * gradients.length)];
 </script>
 
 <style>
 	main {
 		max-width: 640px;
-	}
-
-	h1 {
-		background: linear-gradient(to bottom right, #3BB2B8 0%, #42E695 100%);
-		-webkit-background-clip: text;
-				background-clip: text;
-		-webkit-text-fill-color: transparent;
-		color: #3BB2B8;
 	}
 
 	h2 {
@@ -33,10 +36,19 @@
 		padding: 0;
 		list-style: none;
 	}
+
+	a {
+    color: var(--accent-color);
+	}
+
+	::selection {
+			background: var(--accent-color);
+			color: #FFFFFF;
+	}
 </style>
 
-<main>
-    <h1>Hello.</h1>
+<main style="--accent-color: {gradient.left};">
+    <Header gradient={gradient}>Hello.</Header>
 
     <h2>My name is Jonathan Byrne.</h2>
 
