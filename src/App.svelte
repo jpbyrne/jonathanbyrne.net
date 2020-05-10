@@ -4,13 +4,28 @@
 
 	// https://webgradients.com/
 	const gradients = [
-    { left: '#3BB2B8', right: '#42E695' },
-    { left: '#E8198B', right: '#C7EAFD' },
-    { left: '#4fACFE', right: '#00F2FE' },
-    { left: '#FA709A', right: '#FEE140' },
+    {
+			name: '012 Tempting Azure',
+			left: '#84FAB0', right: '#8FD3F4'
+		},
+		{
+			name: '019 Malibu Beach',
+			left: '#4FACFE', right: '#00F2FE'
+		},
+		{
+			name: '021 True Sunset',
+			left: '#FA709A', right: '#FEE140'
+		},
+    {
+			name: '112 Child Care',
+			left: '#E8198B', right: '#C7EAFD'
+		},
 	];
 	
 	const gradient = gradients[Math.floor(Math.random() * gradients.length)];
+
+	const favicon = document.querySelector('link[rel="icon"]');
+	favicon.setAttribute('href', `favicons/${gradient.name}.png`);
 </script>
 
 <style>
