@@ -67,9 +67,9 @@
 
     <h2>My name is Jonathan Byrne.</h2>
 
-    <p>I’m a Frontend Developer at IBM Watson Health, based in Dublin.</p>
-    <p>Previously I worked at Accenture The Dock, Fjord, and IADT.</p>
-    <p>You can get in touch with me at <a href="mailto:hello@jonathanbyrne.net">hello@jonathanbyrne.net</a>.</p>
+    <p>I’m a Senior Software Developer at Workday Dublin.</p>
+    <p>Previously I've worked at IBM, Accenture, Fjord, and IADT.</p>
+    <p>Say <a href="mailto:hello@jonathanbyrne.net">hello@jonathanbyrne.net</a></p>
 
 	<!-- <ul>
 		<li>
