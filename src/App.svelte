@@ -69,7 +69,7 @@
 
     <p>I’m a Senior Software Developer at Workday Dublin.</p>
     <p>Previously I've worked at IBM, Accenture, Fjord, and IADT.</p>
-    <p>Say <a href="mailto:hello@jonathanbyrne.net">hello@jonathanbyrne.net</a></p>
+    <p>Say <a href="mailto:hello@jonathanbyrne.net">hello@jonathanbyrne.net</a> 👋</p>
 
 	<!-- <ul>
 		<li>
